@@ -1,30 +1,15 @@
-# React + TypeScript + Vite
+# Projecto creado en React con Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projecto creado como calculador de calorias, permite, registrar, editar, eliminar y vaciar los totales, hace calculo de calorias consumidas vs las quemadas y muestra la diferencia
 
-Currently, two official plugins are available:
+Uso de UseState, UseEffect, UseMemo, guardar en localStorage y TypeScript, uso de useReducer y manejo de acciones
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Pagina disponible en el siguiente [link](https://66b0eb8842913a1526a1d9e2--endearing-alfajores-b1d71a.netlify.app/)
 
-## Expanding the ESLint configuration
+**Pasos para instalación**
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Descargar el projecto o clonar
 
-- Configure the top-level `parserOptions` property like this:
+2. Ejecutar `npm install`
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+3. Ejecutar `npm run dev`
