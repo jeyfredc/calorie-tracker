@@ -1,6 +1,6 @@
-# Projecto creado en React con Vite
+# Proyecto creado en React con Vite
 
-Projecto creado como calculador de calorias, permite, registrar, editar, eliminar y vaciar los totales, hace calculo de calorias consumidas vs las quemadas y muestra la diferencia
+Proyecto creado como calculador de calorias, permite, registrar, editar, eliminar y vaciar los totales, hace calculo de calorias consumidas vs las quemadas y muestra la diferencia
 
 Uso de UseState, UseEffect, UseMemo, guardar en localStorage y TypeScript, uso de useReducer y manejo de acciones
 
